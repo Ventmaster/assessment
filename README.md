@@ -1,5 +1,3 @@
-# Assessment - Round 2
-
 ## Overview
 
 The core objective is to demonstrate competence in web automation, data retrieval, language processing, and cross-browser compatibility testing.
@@ -7,7 +5,8 @@ The core objective is to demonstrate competence in web automation, data retrieva
 ## Project Structure
 
 The repository contains the following file:
--   `test.py`: The primary Python script, encompassing all the logic. 
+-   `test.py`: Python script, encompassing some logic.
+-   `script.py`: The complete Python Script, encompassing complete logic.  
 
 ## Dependencies
 
@@ -24,8 +23,8 @@ WebDriverManager to automate the management of browser drivers
 
 Execution
 To execute the script, ensure the required dependencies are installed and you have a stable internet connection. Run the script from your terminal:
-python test.py
-
+python test.py (initial code)
+python script.py (improvised code)
 
 The script will proceed with these actions:
 1. Web Scraping: Open the El País website, navigate to the "Opinión" section, and extract the titles, links, initial content (the first 5 paragraphs), and image URLs from the first 5 articles.
@@ -38,11 +37,12 @@ The script will proceed with these actions:
 Observations
 1. This script uses pauses (time.sleep()) to ensure that web pages are fully loaded before attempting to interact with their elements. This helps prevent common errors related to asynchronous page loading.
 2. Error handling (try...except blocks) is used to manage potential exceptions during the web scraping process, such as elements not being found/network connectivity issues.
-3. Content extraction is limited to the first 5 paragraphs of each article. This was done to keep the processing load reasonable.
-4. The word-frequency analysis focuses on words appearing more than twice in the translated titles.
-5. Cross-browser testing is conducted across a set of common browsers and operating systems to demonstrate compatibility.
+3. The word-frequency analysis focuses on words appearing more than twice in the translated titles.
+4. Cross-browser testing is conducted across a set of common browsers and operating systems to demonstrate compatibility.
 
 ```
+Please note that this project is a work in progress and is subject to changes as the development continues. Features and architecture may evolve to enhance performance, scalability, and user experience. 
+
 Created by: Eashan Srivastava,
 Email ID: eashan455@gmail.com
 
